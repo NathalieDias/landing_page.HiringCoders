@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" >
+		<title>Confeitaria</title>
+    </head>
+    <body>
+        <div id="Confeitaria">
+            <img id="Cab" src="Images/Borda_cab.png"/>
+            <img id="Logo" src="Images/logo.png" />
+            <img id="Black_Friday" src="Images/Black_Friday.png"/>
+            <img id="Texto" src="Images/Texto.png" />
+            <img id="Rod" src="Images/Borda_rod.png"/>
+        </div>
+
+        <div id="content">
+            <form>
+                <div id="Nome">
+                    <span>Nome</span>
+                    <input id="nome"  type="text"/>  
+                </div>
+                <div id="E-mail">
+                    <span>E-mail</span>
+                    <input id="email"  type="text"/>
+                </div>
+                <div id="Cadastrar">
+                    <button type= "submit" id="cadastrar" onclick="Evento()">Cadastrar</button>
+                        <script>
+                            function Evento(){
+                                alert('Em breve você receberá um e-mail de confirmação!')
+                            }
+                        </script>
+                </div>
+            </form>
+        </div>    
+    </body>
+    <script src="script.js"></script>
+</html>
